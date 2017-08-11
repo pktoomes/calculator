@@ -1,0 +1,55 @@
+body{
+  font-family: Times serif;
+  color: white;
+  margin:0%;
+  padding:0%;
+  border-width: thin;
+  border-style: solid;
+  border-color: white;
+}
+.calculator{
+  width:326px;
+  height:405px;
+  background-color: #30C33F;
+  display: flex;
+}
+.row-1{
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.result{
+  width:248px;
+  height: 81px;
+  text-align: right;
+  background-color: #30C33F;
+}
+.clear{
+  width:81px;
+  height:81px;
+  text-align: center;
+  background-color: #30C33F;
+}
+.num{
+  width:81px;
+  height:81px;
+  text-align: center;
+  background-color: #30C33F;
+}
+.operator{
+  width:81px;
+  height:81px;
+  text-align: center;
+  background-color: #4AD558;
+}
+.equal{
+  width:81px;
+  height:81px;
+  text-align: center;
+  background-color: #30C33F;
+}
+.period{
+  width:81px;
+  height:81px;
+  text-align: center;
+  background-color: #30C33F;
+}
