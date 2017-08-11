@@ -1,33 +1,40 @@
 body{
   font-family: Times serif;
   color: white;
-  margin:0%;
-  padding:0%;
-  border-width: thin;
-  border-style: solid;
-  border-color: white;
+
+}
+button{
+  color:white;
+  font-size: 150%;
+  margin:0px;
+  text-align: center;
 }
 .calculator{
   width:326px;
   height:405px;
   background-color: #30C33F;
-  display: flex;
+  border-collapse: collapse;
 }
-.row-1{
-  flex-direction: row;
-  flex-wrap: nowrap;
+tr{
+  margin:0px;
 }
-.result{
+#result{
   width:248px;
   height: 81px;
   text-align: right;
   background-color: #30C33F;
 }
-.clear{
+#clear{
   width:81px;
   height:81px;
   text-align: center;
   background-color: #30C33F;
+}
+#zero{
+  width:81px;
+  height:81px;
+  text-align: center;
+  background-color: #30C33F
 }
 .num{
   width:81px;
@@ -41,13 +48,13 @@ body{
   text-align: center;
   background-color: #4AD558;
 }
-.equal{
+#equal{
   width:81px;
   height:81px;
   text-align: center;
   background-color: #30C33F;
 }
-.period{
+#period{
   width:81px;
   height:81px;
   text-align: center;
